@@ -3,7 +3,7 @@ MAINTAINER Susanna Kiwala <susanna.kiwala@wustl.edu>
 
 LABEL \
     description="Image containing the vatools python package" \
-    version="5.1.1"
+    version="5.2.0"
 
 RUN apt-get update -y && apt-get install -y \
     apt-utils \
@@ -15,4 +15,4 @@ RUN apt-get update -y && apt-get install -y \
     zlib1g-dev \
     gawk
 
-RUN pip3 install vatools==5.1.1
+RUN pip3 install vatools==5.2.0
